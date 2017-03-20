@@ -93,9 +93,6 @@ public class EmploymentDB {
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
 //            e.printStackTrace();
-            JOptionPane.showMessageDialog(null, "Unable to connect to the server!"
-                            + "\nPlease check your internet connection and restart the program!",
-                    "Failed Warning", JOptionPane.WARNING_MESSAGE);
             return false;
         }
         return true;
